@@ -93,5 +93,5 @@ The application is built using Python and Streamlit. The core logic involves par
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=%23license) file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENCE) file for details.
 
