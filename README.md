@@ -1,16 +1,12 @@
-Here's a GitHub README.md file for your Streamlit app, incorporating the MIT License.
 
------
+# IFC Property Set Editor V0.1
 
-# IFC Property Set Editor
+![image](./assets/app.png)
 
-*(Replace this placeholder image with an actual screenshot of your running app)*
-
-A Streamlit web application designed to read, display, and edit IFC (Industry Foundation Classes) Property Set definitions from a `.txt` file. This tool is particularly useful for managing property mappings between IFC and other software like Revit, allowing users to easily modify, add, and remove property sets and their individual properties.
-
+A Streamlit web application designed to read, display, and edit [Export parameter mapping table](https://autodesk.ifc-manual.com/revit/ifc-export-settings-dialog/property-sets/parameter-mapping-table) file. 
 ## Features
 
-  * **File Upload:** Upload `ThesisParameterSets.txt` (or similarly formatted `.txt` files) to load existing IFC property set definitions.
+  * **File Upload:** Upload `UserDefinedParameterSets.txt` (or similarly formatted `.txt` files) to load existing IFC property set definitions.
   * **Structured Display:** Information is displayed in clear blocks, categorizing by Property Set.
   * **Editable Fields:**
       * Edit Property Set name, type (Instance `I` or Type `T`), and applicable IFC classes.
